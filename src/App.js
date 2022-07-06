@@ -1,13 +1,13 @@
-import './App.css';
-import Kitchen from './Kitchen';
-
 import './App.css'
+import Floorplan from './Floorplan'
 
 function App() {
   return (
-    <div>
-      <Kitchen />
-    </div>
+    <>
+      <div>
+        <Floorplan />
+      </div>
+    </>
   )
 }
 
